@@ -1,12 +1,10 @@
 import React from 'react';
-import WelcomeScreen from './src/screens/WelcomeScreen';
-import ViewImageScreen from './src/screens/ViewImageScreen';
-import {View} from 'react-native';
-import Card from './src/components/Card';
-import ListingDetailScreen from './src/screens/ListingDetailScreen';
+
+import AccountScreen from './src/screens/AccountScreen';
+import ListingScreen from './src/screens/ListingScreen';
 
 const App = () => {
-  return <WelcomeScreen />;
+  return <ListingScreen />;
 };
 
 export default App;
